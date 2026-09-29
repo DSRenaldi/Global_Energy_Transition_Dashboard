@@ -1,0 +1,22 @@
+{
+  "dataset_name": "Our World in Data Energy Data",
+  "publisher": "Our World in Data",
+  "repository": "https://github.com/owid/energy-data",
+  "source_commit": "7e387a16f70a510e433f8aac7efeac6faa1e5059",
+  "accessed_at_utc": "2026-09-29T03:02:58.067351+00:00",
+  "license_note": "See OWID dataset and individual indicator source metadata in the codebook.",
+  "files": [
+    {
+      "local_file": "owid-energy-data.csv",
+      "url": "https://raw.githubusercontent.com/owid/energy-data/7e387a16f70a510e433f8aac7efeac6faa1e5059/owid-energy-data.csv",
+      "sha256": "266f2e2baad7975351bc9bb4aa061d22b1da9fe4c47d51d2ac6071e01e171f76",
+      "size_bytes": 9229369
+    },
+    {
+      "local_file": "owid-energy-codebook.csv",
+      "url": "https://raw.githubusercontent.com/owid/energy-data/7e387a16f70a510e433f8aac7efeac6faa1e5059/owid-energy-codebook.csv",
+      "sha256": "3cc9b7db0d921496e2988568ce3aee5ed41f50431dd234a0663b5f0a4b2e32bb",
+      "size_bytes": 45793
+    }
+  ]
+}

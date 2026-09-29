@@ -1,0 +1,17 @@
+primary_fuel,fuel_key,fuel_group,is_fossil,is_renewable,is_nuclear,is_low_carbon
+Biomass,biomass,Renewable,0,1,0,1
+Coal,coal,Fossil,1,0,0,0
+Cogeneration,cogeneration,Other / Unknown,0,0,0,0
+Gas,gas,Fossil,1,0,0,0
+Geothermal,geothermal,Renewable,0,1,0,1
+Hydro,hydro,Renewable,0,1,0,1
+Nuclear,nuclear,Nuclear,0,0,1,1
+Oil,oil,Fossil,1,0,0,0
+Other,other,Other / Unknown,0,0,0,0
+Petcoke,petcoke,Fossil,1,0,0,0
+Solar,solar,Renewable,0,1,0,1
+Storage,storage,Other / Unknown,0,0,0,0
+Waste,waste,Other / Unknown,0,0,0,0
+Wave and Tidal,wave_and_tidal,Renewable,0,1,0,1
+Wind,wind,Renewable,0,1,0,1
+

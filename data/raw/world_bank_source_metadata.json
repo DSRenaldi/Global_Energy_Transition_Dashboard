@@ -1,0 +1,20 @@
+{
+  "publisher": "World Bank",
+  "api_version": "v2",
+  "accessed_at_utc": "2026-09-29T02:37:11.091205+00:00",
+  "country_metadata": {
+    "url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "local_file": "world_bank_countries.json",
+    "sha256": "d29d57f8adf954c5e2a1520a02fb2c7b45575d8db3bd327a9dff47d66914231c",
+    "size_bytes": 113590,
+    "classification_note": "Region and income group reflect the API classification at access time."
+  },
+  "population": {
+    "indicator": "SP.POP.TOTL",
+    "year": 2020,
+    "url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?date=2020&format=json&per_page=400",
+    "local_file": "world_bank_population_2020.json",
+    "sha256": "84715d544188219c1f60bbb9fbcb3eaa4926bb53cbb181e1ab86865da1414a75",
+    "size_bytes": 53362
+  }
+}

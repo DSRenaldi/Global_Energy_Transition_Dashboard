@@ -1,0 +1,157 @@
+# -----------------------------------------------------------------------------
+# Secrets and local environment
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.kdb
+*.der
+*.csr
+*.crt
+*.cer
+*.ovpn
+*.mobileprovision
+id_rsa*
+id_ed25519*
+.envrc
+.direnv/
+.npmrc
+.pypirc
+.netrc
+.pgpass
+pgpass.conf
+credentials.json
+credentials.*.json
+service-account*.json
+service_account*.json
+*secret*.json
+*secrets*.yml
+*secrets*.yaml
+secrets/
+.aws/
+.azure/
+.config/gcloud/
+*.tfvars
+*.tfstate
+*.tfstate.*
+.terraform/
+kubeconfig
+*.kubeconfig
+
+# -----------------------------------------------------------------------------
+# Database dumps, backups, and local databases
+# Keep sql/*.sql tracked: those files define the reproducible project schema.
+# -----------------------------------------------------------------------------
+*.dump
+*.pgdump
+*.backup
+*.bak
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+backups/
+dumps/
+
+# -----------------------------------------------------------------------------
+# Python environments, caches, and coverage
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+
+# -----------------------------------------------------------------------------
+# Raw and generated data
+# -----------------------------------------------------------------------------
+data/raw/*.csv
+data/raw/world_bank_*.json
+data/interim/*
+data/processed/*
+data/analytics/*
+reports/data_quality/*
+reports/phase2/*
+reports/phase3/*
+reports/phase4/*
+
+# Keep only documentation/provenance metadata and directory placeholders.
+!data/raw/README.md
+!data/raw/source_metadata.json
+!data/raw/owid_source_metadata.json
+!data/raw/world_bank_source_metadata.json
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/analytics/.gitkeep
+!reports/data_quality/.gitkeep
+!reports/phase2/.gitkeep
+!reports/phase3/.gitkeep
+!reports/phase4/.gitkeep
+
+# -----------------------------------------------------------------------------
+# Node, Vite, Playwright, and frontend build artifacts
+# -----------------------------------------------------------------------------
+web/node_modules/
+web/dist/
+web/.vite/
+web/test-results/
+web/playwright-report/
+web/blob-report/
+web/playwright/.auth/
+playwright/.auth/
+.playwright-cli/
+auth.json
+storage-state*.json
+cookies*.json
+session-state*.json
+*.har
+node_modules/
+dist/
+coverage/
+.npm/
+.pnpm-store/
+.yarn/cache/
+*.tsbuildinfo
+
+# -----------------------------------------------------------------------------
+# Logs, temporary files, editors, and operating-system metadata
+# -----------------------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# -----------------------------------------------------------------------------
+# Local project context and agent memory
+# -----------------------------------------------------------------------------
+context-power-plant.md
+PROJECT_MEMORY.md
+.agents/
+.codex/

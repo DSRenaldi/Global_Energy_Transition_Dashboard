@@ -1,0 +1,37 @@
+{
+  "name": "global-energy-transition-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.js",
+    "dev:watch": "node --watch-path=server server/index.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js",
+    "check": "node --check server/index.js && vite build",
+    "test:e2e": "playwright test",
+    "capture:readme": "node scripts/capture-readme-screenshots.mjs"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "^5.2.7",
+    "@fontsource/ibm-plex-mono": "^5.2.6",
+    "@fontsource/manrope": "^5.2.7",
+    "echarts": "^6.1.0",
+    "express": "^5.2.1",
+    "pg": "^8.23.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@playwright/cli": "^0.1.22",
+    "@playwright/test": "^1.63.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.3.6"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
